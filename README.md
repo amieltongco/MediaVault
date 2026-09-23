@@ -18,8 +18,8 @@ MediaVault utilizes a DAO (Data Access Object) structure combined with the MVC (
 ### Project Structure
 ```
 .
-├── data/           # SQLite database
-├── lib/            # JavaFX, JDBC, JSON libraries
+├── data/                     # SQLite database
+├── lib/                      # JavaFX, JDBC, JSON libraries
 └── src/
 	├── application/        
 	│   ├── api/              # Spotify, TMDB, GameBrain API clients
@@ -46,7 +46,6 @@ MediaVault uses a local SQLite database, with all tables managed through the DAO
 - **`seasons`** — child of `shows`
 - **`episodes`** — child of `seasons`
 ## Getting Started
-### Running the Application
 ### Prerequisites
 - JDK 17 or higher
 - Eclipse IDE
